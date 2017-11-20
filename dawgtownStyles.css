@@ -4,11 +4,26 @@
         font-family: 'Slackey', cursive;
         font-size: 80px
         }
+        
+/* header links  */
+        a:link {
+        
+        }
+        a:visited {
+            color: orange;
+        }
+        /*  mouse over link  */
+        a:hover {
+            font-weight: bold;
+            text-decoration: none;
+        }
+        a:active {
+            text-decoration: none;
+        }
 
-    div content {
-        width: 900px;
-        background-color:  rgba(199, 203, 133, 1);
-    }
+    .beverages {
+         padding: 20px
+     }
 
         /*  <center>
         <h1>Dawg Town</h1>
