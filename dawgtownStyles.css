@@ -2,17 +2,25 @@
 
     h1 {
         font-family: 'Slackey', cursive;
-        font-size: 80px
+        font-size: 80px;
+        color: darkslategray
         }
+
+    h1a {
+        font-family: 'Slackey', cursive;
+        font-size: 40px;
+        color: red;
+        font-weight: bold;
+    }
         
-/* header links  */
-        a:link {
+/* header links  
+       a:link {
         
         }
         a:visited {
             color: orange;
         }
-        /*  mouse over link  */
+        /*  mouse over link  
         a:hover {
             font-weight: bold;
             text-decoration: none;
@@ -20,15 +28,18 @@
         a:active {
             text-decoration: none;
         }
+        */
 
-    .beverages {
-         padding: 20px
-     }
+        .beverages {
+            padding: 20px
+        }
 
         /*  <center>
         <h1>Dawg Town</h1>
-        </center>
-        <dv/>
+        </center>  */
+
+
+     /*   <dv/>
         <hr>
         <a href="index.html">Home</a>&emsp;
         <a href="menu.html">Menu</a>&emsp;
@@ -45,11 +56,26 @@ $color5: rgba(235, 190, 155, 1);
  */
 
 /*  Menu page  */
-    th {
-        font-size: 25px
-    }  
+    .container {
+        background-color:rgba(199, 203, 133, 1);
+    }
+
+    h2 {
+        font-size: 20px;
+        font-weight: bold;
+        color: red;
+    }
+
+    .row {
+        font-size: sm;
+        text-align: center;
+        /*  font-weight: bold;  */
+        color: black;
+    }
+    
+    }
     table {
-        background-color: rgba(199, 203, 133, 1);
+        background-color: lightgray;
     }
 
 /*  footer  */

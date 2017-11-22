@@ -4,6 +4,14 @@
       <title> 
           Dawg Town Resturant - Contact Us
         </title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
         <link href="dawgtownStyles.css"
         rel="stylesheet"
         type="text/css"
@@ -16,14 +24,24 @@
         <h1>Dawg Town</h1>
             </center>
             <dv/>
-            <hr>
-            <a href="index.html">Home</a>&emsp;
-            <a href="menu.html">Menu</a>&emsp;
-           <a href="contact.html">Contact Us</a>
-             <hr>
+<hr>
+
+<ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact Us</a>
+        </li>
+    </ul>
+           
+<hr>
              <br>
              
-           <form action="#" method="post">
+           <form action="#" method="post" align="center">
             <div>
                 <label id="NameLabel" for="Name">Name: </label>
                 <input id="Name" name="Name" type="text" />
