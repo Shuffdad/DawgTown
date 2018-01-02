@@ -1,17 +1,8 @@
+
+
 /*  header */
 
-    h1 {
-        font-family: 'Slackey', cursive;
-        font-size: 80px;
-        color: darkslategray
-        }
 
-    h1a {
-        font-family: 'Slackey', cursive;
-        font-size: 40px;
-        color: red;
-        font-weight: bold;
-    }
         
 /* header links  
        a:link {
@@ -56,9 +47,6 @@ $color5: rgba(235, 190, 155, 1);
  */
 
 /*  Menu page  */
-    .container {
-        background-color:rgba(199, 203, 133, 1);
-    }
 
     h2 {
         font-size: 20px;
@@ -73,16 +61,24 @@ $color5: rgba(235, 190, 155, 1);
         color: black;
     }
     
-    }
-    table {
-        background-color: lightgray;
-    }
 
 /*  footer  */
-    <hr>
-    <p>
-    <center>
-    Bardstown Road, Louisville, Kentucky, 40205
-    <br>(502)502-5022
-        </center>
-    </p>
+   .footer {
+        font-family: 'Open Sans', sans-serif;
+        background-color: black;
+       text-align: center;
+       color: white;
+      padding-top: 10px;
+   }
+
+   .contactForm {
+       background-color: rgb(168, 168, 167);
+       border-radius: 10px;
+       margin: 10px;
+       padding: 10px;
+
+   }
+
+   #sendRequest {
+       margin-top: 8px;
+   }
